@@ -61,26 +61,26 @@ a:hover {
 
 /* Content widths */
 .max-content-width {
-  max-width: 1440px;
+  max-width: 90rem;
   margin-inline: auto;
   overflow-x: hidden;
   background: var(--gradient-background);
 }
 
 .inner-content {
-  max-width: 335px;
+  max-width: 20.95rem;
   margin-inline: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .inner-content {
-    max-width: 680px;
+    max-width: 42.5rem;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .inner-content {
-    max-width: 1120px;
+    max-width: 70rem;
   }
 }
 
@@ -89,7 +89,7 @@ a:hover {
   height: 1.25rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .logo {
     height: 1.75rem;
   }
@@ -104,7 +104,7 @@ a:hover {
   background: var(--blue-900);
   color: var(--white);
   padding: var(--s-200) var(--s-400);
-  border-radius: 999px;
+  border-radius: 20rem;
   text-decoration: none;
   text-align: center;
   transition: background 0.3s ease;
@@ -136,24 +136,24 @@ a:hover {
   color: var(--white);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .btn {
     padding: var(--s-150) var(--s-300);
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .btn {
     padding: var(--s-200) var(--s-400);
   }
 }
 
-footer .btn-secondary {
+.btn-small {
   padding: var(--s-150) var(--s-300);
 }
 
-@media (min-width: 1024px) {
-  footer .btn-secondary {
+@media (min-width: 64rem) {
+  .btn-small {
     padding: var(--s-200) var(--s-400);
   }
 }
@@ -168,7 +168,7 @@ nav {
   z-index: 1000;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   nav {
     padding-block: var(--s-300);
   }
@@ -193,12 +193,12 @@ nav {
   position: static;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .banner {
     grid-template-columns: 1fr 1fr;
     gap: var(--s-300);
     align-items: center;
-    min-height: 400px;
+    min-height: 25rem;
   }
 
   .banner picture {
@@ -210,9 +210,9 @@ nav {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .banner {
-    min-height: 580px;
+    min-height: 35.25rem;
   }
 
   .banner picture {
@@ -235,7 +235,7 @@ nav {
   margin-block-end: var(--s-500);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .banner--title {
     font-size: 3.5rem;
   }
@@ -245,22 +245,22 @@ nav {
 
 .courses {
   display: grid;
-  gap: calc(var(--s-400) + 28px);
+  gap: calc(var(--s-400) + 1.75rem);
   padding-block-start: var(--s-800);
   padding-block-end: var(--s-1000);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .courses {
     grid-template-columns: repeat(2, 1fr);
     padding-block-end: var(--s-1800);
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .courses {
     grid-template-columns: repeat(3, 1fr);
-    gap: calc(var(--s-700) + 28px);
+    gap: calc(var(--s-700) + 1.75rem);
   }
 }
 
@@ -303,7 +303,7 @@ nav {
   margin-block-start: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .card h3 {
     font-size: 1.25rem;
   }
@@ -313,7 +313,7 @@ nav {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .card h2 {
     font-size: 2rem;
   }
